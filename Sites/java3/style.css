@@ -1,0 +1,155 @@
+.container{
+	width:100%;
+	margin:70px auto 0;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top: 5%
+}
+.topo{
+	width:100%;
+	height:55px;
+	line-height:55px;
+	float:left;
+	margin:0 0 15px;
+	background:#9F1700;
+	text-align:center;
+	color:#fff;
+	margin-top: -5.19%;
+}
+.direita{
+	width:15%;
+	float: right;
+	padding:20px;
+	min-height:600px;
+	margin:0 0 0 0px;
+	background:#FFCC4B;
+	text-align:center;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box; /* Para algumas versões de tablet */
+	margin-top: -44.65%;
+}
+.esquerda{
+	width:15%;
+	padding:20px;
+	min-height:600px;
+	margin:0 0 0 0px;
+	background:#FFCC4B;
+	float:left;
+	text-align:center;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box; /* Para algumas versões de tablet */
+	margin-top: -44.65%;
+}
+
+.conteudo{
+	width: 69%;
+	padding:20px;
+	margin: auto;
+	min-height:600px;
+	background:#948A8A;
+	text-align:center;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	float: center;
+	
+}
+.celular{
+	width:100%;
+	float:left;
+	font-size:12px; padding:15px;
+	background:#13FCD8;
+	margin:15px 0 0;
+	display:none; /* Esta div só aparecerá na resolução determinada */
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.rodape{
+	width:100%;
+	height:65px;
+	line-height:65px;
+	float:left;
+	background:#FFF149;
+	margin:15px 0 0;
+	text-align:center;
+}
+.tamanho{
+	width:100%;
+	margin:22px 0 0;
+	font-size:15px;
+	float:left;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.tamanho span{
+	color:#999;
+}
+.info2, .info3, .info4{
+	display:none;
+}
+
+/* === Configurações para resoluções menores de 900px === */
+@media screen and (max-width: 900px) { 
+	.container{
+		width:100%; /* Removemos o limite de 992px do site */
+	} 
+	.conteudo{
+		width:65%;
+		margin-left: 0%;
+	}
+	.direita{
+		width: 32%;
+		margin: 0% 0px 0px 3%;
+	}
+	.esquerda{
+		width: 32%;
+		margin: 15px 0px 0px 68%;
+		float: right;
+	}
+	.info1{
+		display:none;
+	}
+	.info2{
+		display:inline-block;
+	}
+}
+
+/* === Configurações para resoluções menores de 600px === */
+@media screen and (max-width:600px) {
+	.conteudo{
+		width:100%;
+	}
+	.direita{
+		width:100%;
+		min-height:inherit;
+		margin:20px 0 0;
+	}
+	.esquerda{
+		width:100%;
+		min-height:inherit;
+		margin:20px 0 0;
+	}
+	.info2{
+		display:none;
+	}
+	.info3{
+		display:inline-block;
+	}
+}
+
+/* === Configurações para resoluções menores de 480px === */
+@media screen and (max-width:480px) {
+	/*.direita{
+		display:none; /* Escondendo a div direita */
+/*	}
+	.esquerda{
+		display:none; /* Escondendo a div esquerda */
+/*	}*/
+	.info3{
+		display:none;
+	}
+	.info4{
+		display:inline-block;
+	}
+	.celular{
+		display:block;
+	}
+}

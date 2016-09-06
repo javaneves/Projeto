@@ -1,0 +1,549 @@
+body{
+	margin: 0px;
+}
+
+header{
+ width:100%;
+ height:400px;
+ /*background:#555753;*/
+ position:absolute;
+}
+
+/* ///////////////////////////////////////////////////  INÍCIO HEADER  ////////////////////////////////////////////////////////////// */
+.fundo{
+background:#1288ac;
+width:100%;
+ height:118px;
+ margin: 0 auto;
+ font-family: helvetica;
+ color: white;
+
+}
+
+#menu1{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+	font-size: 10px;
+	padding: 1px;
+}
+#menu1 ul li { 
+	display: inline; 
+}
+
+#menu1 ul li a{ 
+text-decoration:none;
+color: white;
+margin-right: 4.5EM; 
+margin-left: 1.3EM;
+}
+
+.titulo{
+	float: left;
+	margin-left: 4.4%;
+	font-size: 17px;
+}
+
+#menu2{
+	font-family: 'Open Sans', 'sans-serif', helvetica';
+	float: right;
+	padding-top: 2px
+}
+
+#menu2 ul li { 
+	display: inline; 
+}
+
+#menu2 ul li a{ 
+text-decoration:none;
+color: white;
+margin-right: 0.5EM; 
+margin-left: -0.8EM;
+}
+
+#menu2 ul li a:hover{ 
+	background: #eeeeec;
+	width: 140px;
+	height: 80px;
+	color: #3a405f;
+	transition-duration: 0.5s;
+}
+
+#menu2 ul li a{ 
+padding-top: 33px; 
+padding-bottom: 31px; 
+padding-right: 40px; 
+padding-left: 40px;
+font-weight: bold;
+}
+
+#quadro{
+	width: 140px;
+	height: 80px;
+	background: white;
+	margin-right: 10px;
+}
+
+#quadro a{ 
+text-decoration: none;
+color: #1288ac;
+margin-right: 3EM;
+padding: 27px;
+float: left;
+font-weight: bold;
+}
+
+.linha1{
+margin-top: 6.36%;
+width:100%; /* box retangular */
+height:19px;  /* box retangular */
+background-color: transparent;
+background-image: linear-gradient( to top, transparent, black);
+position: relative;
+opacity: 0.9;
+}
+/* ///////////////////////////////////////////////////  FIM HEADER  ////////////////////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////////////  INÍCIO TELA DE VÍDEO  ////////////////////////////////////////////// */
+.texto{
+margin-left: 3%;
+margin-top: -35%;
+color: white;
+font-size: 30px;
+font-family: sans-serif,helvetica,times new roman;
+}
+
+.criarconta{
+margin-top:2%;
+}
+
+.quadrocriar{
+width: 44%;
+background: white;
+margin-left: 9%;
+box-shadow: 0px 2px 16px 1px #504949;
+}
+
+.quadrocriar a{
+color: #0099cc;
+text-decoration: none;
+font-size: 18;
+width: 43px;
+z-index: 9;
+padding-left: 26px;
+padding-bottom: 27px;
+padding-top: 26px;
+margin-left: 0px;
+padding-right: 12px;
+}
+
+.quadrocriar:hover{
+  opacity:1;
+  background: #eeeeec;
+  transition:all 0.6s ease;
+  box-shadow: 0px 2px 16px 1px #babdb6;
+}
+
+.duvidas{
+margin-left: 3.7%;
+font-size: 13px; 
+margin-top: 2%; 	
+}
+.duvidas a{
+text-decoration:none; 
+color: white; 
+font-family: sans-serif,helvetica;"
+}
+
+.duvidas a:hover{
+	color:#eeeeec;
+}
+
+.botaoplayer{
+display: inline-block;
+position: relative;
+height: 63px;
+background: rgba(1, 13, 24, 0.39);
+margin-left: 50%;
+width: 8%;
+margin-top: -8%;
+border-color: white;
+border-radius: 5px;
+box-shadow: 0px 0px 0px 2px #FDFDFD;
+}
+
+.botaoplayer:hover{
+display: inline-block;
+position: relative;
+height: 63px;
+background: rgba(1, 13, 24, 0.61);
+margin-left: 50%;
+width: 8%;
+margin-top: -8%;
+border-color: white;
+border-radius: 5px;
+box-shadow: 0px 0px 0px 2px #FDFDFD;
+transition:all 0.6s ease;
+}
+/* ///////////////////////////////////////////////////  FIM TELA DE VÍDEO  ////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////////////  INÍCIO TELA DE BUSCA  ////////////////////////////////////////////// */
+.servicosimg{
+margin-top: -3%;
+margin-left: 5%;
+}
+
+.servicostexto{
+margin-top: 2.5%;
+margin-left: 10%;
+font-family: 'Open Sans', 'sans-serif', 'helvetica';
+font-size: 172%;
+color: #0099cc
+}
+
+.caixadetexto{
+background-image: url(../img/lupa.png);
+background-repeat: no-repeat;
+width: 90%;
+height: 6%;
+background-size: 2.5%;
+background-position-x: 1%;
+background-position-y: 50%;
+font-size: 125%;
+padding-left: 4.5%;
+color: rgb(153, 152, 152);
+border: 2px solid #D5D3D3;
+border-radius: 2.5px;
+}
+/* ///////////////////////////////////////////////////  FIM TELA DE BUSCA  ////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////////////  INÍCIO TELA DE QUADROS  ////////////////////////////////////////////// */
+
+.listadebotoes{
+margin-left: 4.4%; 
+}
+.listadebotoes>ul{
+list-style-type: none;
+display: inline-flex;
+}
+
+.listadebotoes>ul>li{
+width: 30%;
+height: 34%; 
+background: #efede5;
+padding-right: 0px;
+margin-right: 32px;
+font-family: sans-serif;
+}
+.listadebotoes>ul>li:hover{
+background: #db2a50;
+}
+
+
+.listadebotoes>ul>li>a{
+text-decoration:none;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem{
+width: 250px;
+height: 101px;
+background: #db2a50;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem>.imagemviagem{
+margin-left: 32.5%;
+width: 34%;
+margin-top: 13%;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem,.imagemviagem{
+background-image: url(../img/maleta.png), linear-gradient(to bottom, #db2a50, #db2a50);
+background-repeat: no-repeat;
+background-position:50% 102%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem,.imagemviagem{
+background-image: url(../img/maleta-color.png), linear-gradient(to bottom, #db2a50, #db2a50);
+background-repeat: no-repeat;
+}
+
+
+.listadebotoes>ul>li>a>.tarjaviagem>.fonte>.titulobotao{
+ font-size: 148%;
+text-align: center;
+color: #748d93;
+margin-top: 36%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem>.fonte>.titulobotao{
+color:white;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem>.fonte>.chamada{
+ margin-left: 0%;
+ margin-top: 8%;
+ color:#bcbbb7;
+ text-align: center;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem>.fonte>.chamada{
+ color: white;
+}
+
+.linhabotao{
+width: 18.4%;
+height: 0.5%;
+background: #d6d6d4;
+margin-top: 2.99%;
+position: absolute;
+}
+
+/* BOTÃO EDUCAÇÃO */
+
+.listadebotoes>ul>li.educacao:hover{
+background: #3db2a0;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.educacao{
+background: #3db2a0;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.educacao,.imagemviagem.educacao{
+background-image: url(../img/educacao.png), linear-gradient(to bottom, #3db2a0, #3db2a0);
+background-repeat: no-repeat;
+background-position:50% 102%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.educacao,.imagemviagem.educacao{
+background-image: url(../img/educacao-color.png), linear-gradient(to bottom, #3db2a0, #3db2a0);
+background-repeat: no-repeat;
+}
+
+/* BOTÃO SAÚDE */
+
+.listadebotoes>ul>li.saude:hover{
+background: #ecc63d;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.saude{
+background: #ecc63d;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.saude,.imagemviagem.saude{
+background-image: url(../img/coracao.png), linear-gradient(to bottom, #ecc63d, #ecc63d);
+background-repeat: no-repeat;
+background-position:50% 102%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.saude,.imagemviagem.saude{
+background-image: url(../img/coracao-color.png), linear-gradient(to bottom, #ecc63d, #ecc63d);
+background-repeat: no-repeat;
+}
+
+
+/* BOTÃO URBANIZAÇÃO */
+
+.listadebotoes>ul>li.urbanizacao:hover{
+background: #2c4f5b;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.urbanizacao{
+background: #2c4f5b;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.urbanizacao,.imagemviagem.urbanizacao{
+background-image: url(../img/folha.png), linear-gradient(to bottom, #2c4f5b, #2c4f5b);
+background-repeat: no-repeat;
+background-position:50% 102%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.urbanizacao,.imagemviagem.urbanizacao{
+background-image: url(../img/folha-color.png), linear-gradient(to bottom, #2c4f5b, #2c4f5b);
+background-repeat: no-repeat;
+}
+
+/* BOTÃO CORREIO */
+
+.listadebotoes>ul>li.correio:hover{
+background: #ecc63d;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.correio{
+background: #ecc63d;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.correio,.imagemviagem.correio{
+background-image: url(../img/correio.png), linear-gradient(to bottom, #ecc63d, #ecc63d);
+background-repeat: no-repeat;
+background-position:50% 121%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.correio,.imagemviagem.correio{
+background-image: url(../img/correio-color.png), linear-gradient(to bottom, #ecc63d, #ecc63d);
+background-repeat: no-repeat;
+}
+
+/* BOTÃO SEGURANÇA */
+
+.listadebotoes>ul>li.seguranca:hover{
+background: #da7938;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.seguranca{
+background: #da7938;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.seguranca,.imagemviagem.seguranca{
+background-image: url(../img/cadeado2.png), linear-gradient(to bottom, #da7938, #da7938);
+background-repeat: no-repeat;
+background-position:50% 102%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.seguranca,.imagemviagem.seguranca{
+background-image: url(../img/cadeado-color.png), linear-gradient(to bottom, #da7938, #da7938);
+background-repeat: no-repeat;
+}
+
+/* BOTÃO RESIDENCIAL */
+
+.listadebotoes>ul>li.residencial:hover{
+background: #3db2a0;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.residencial{
+background: #3db2a0;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.residencial,.imagemviagem.residencial{
+background-image: url(../img/residencial.png), linear-gradient(to bottom, #3db2a0, #3db2a0);
+background-repeat: no-repeat;
+background-position:50% 121%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.residencial,.imagemviagem.residencial{
+background-image: url(../img/residencial-color.png), linear-gradient(to bottom, #3db2a0, #3db2a0);
+background-repeat: no-repeat;
+}
+
+/* BOTÃO FISCO */
+
+.listadebotoes>ul>li.fisco:hover{
+background: #e3574c;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.fisco{
+background: #e3574c;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.fisco,.imagemviagem.fisco{
+background-image: url(../img/fisco.png), linear-gradient(to bottom, #e3574c, #e3574c);
+background-repeat: no-repeat;
+background-position:50% 102%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.fisco,.imagemviagem.fisco{
+background-image: url(../img/fisco-color.png), linear-gradient(to bottom, #e3574c, #e3574c);
+background-repeat: no-repeat;
+}
+
+/* BOTÃO EMPREGO */
+
+.listadebotoes>ul>li.emprego:hover{
+background: #2c4f5b;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.emprego{
+background: #2c4f5b;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.emprego,.imagemviagem.emprego{
+background-image: url(../img/emprego.png), linear-gradient(to bottom, #2c4f5b, #2c4f5b);
+background-repeat: no-repeat;
+background-position:50% 102%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.emprego,.imagemviagem.emprego{
+background-image: url(../img/emprego-color.png), linear-gradient(to bottom, #2c4f5b, #2c4f5b);
+background-repeat: no-repeat;
+}
+
+/* BOTÃO CARTORIAL */
+
+.listadebotoes>ul>li.cartorial:hover{
+background: #db2a50;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.cartorial{
+background: #db2a50;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.cartorial,.imagemviagem.cartorial{
+background-image: url(../img/cartorial.png), linear-gradient(to bottom, #db2a50, #db2a50);
+background-repeat: no-repeat;
+background-position:50% 102%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.cartorial,.imagemviagem.cartorial{
+background-image: url(../img/cartorial-color.png), linear-gradient(to bottom, #db2a50, #db2a50);
+background-repeat: no-repeat;
+}
+
+/* BOTÃO ELEITORAL */
+
+.listadebotoes>ul>li.eleitoral:hover{
+background: #2c4f5b;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.eleitoral{
+background: #2c4f5b;
+}
+
+.listadebotoes>ul>li>a>.tarjaviagem.eleitoral,.imagemviagem.eleitoral{
+background-image: url(../img/eleitoral.png), linear-gradient(to bottom, #2c4f5b, #2c4f5b);
+background-repeat: no-repeat;
+background-position:50% 102%;
+}
+.listadebotoes>ul>li:hover>a>.tarjaviagem.eleitoral,.imagemviagem.eleitoral{
+background-image: url(../img/eleitoral-color.png), linear-gradient(to bottom, #2c4f5b, #2c4f5b);
+background-repeat: no-repeat;
+}
+
+/* ///////////////////////////////////////////////////  FIM TELA DE QUADROS  ////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////////////////  INÍCIO TELA DE RODAPÉ  ////////////////////////////////////////////// */
+.rodape{
+	width:100%;
+	background: #efede5;
+	height: 17%;
+	
+}
+.textocompartilhe{
+font-family: sans-serif;
+color: rgb(105, 105, 105);
+font-size: 79%;
+text-align: center;
+padding-top: 1.5%;
+}
+.listaredes{
+margin-left: 38.5%;
+}
+
+.listaredes ul{
+list-style-type:none;
+}
+
+.listaredes>ul>li.social{
+	display:inline;
+	padding:2.5px;
+}
+
+.video{
+display:none;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
